@@ -1,0 +1,28 @@
+[10:41:23.501] Namespace(ckpt='checkpoints/sam_vit_b_01ec64.pth', config=None, dataset='Synapse', deterministic=1, img_size=512, input_size=224, is_savenii=True, list_dir='./lists/lists_Synapse/', lora_ckpt='checkpoints/epoch_159.pth', module='sam_lora_image_encoder', num_classes=8, output_dir='D:\\Desktop\\SAMed-main\\output', rank=4, seed=1234, vit_name='vit_b', volume_path='testset/test_vol_h5/')
+[10:41:23.501] 12 test iterations per epoch
+[10:43:35.819] Namespace(ckpt='checkpoints/sam_vit_b_01ec64.pth', config=None, dataset='Synapse', deterministic=1, img_size=512, input_size=224, is_savenii=True, list_dir='./lists/lists_Synapse/', lora_ckpt='checkpoints/epoch_159.pth', module='sam_lora_image_encoder', num_classes=8, output_dir='D:\\Desktop\\SAMed-main\\output', rank=4, seed=1234, vit_name='vit_b', volume_path='testset/test_vol_h5/')
+[10:43:35.819] 12 test iterations per epoch
+[10:45:16.476] Namespace(ckpt='checkpoints/sam_vit_b_01ec64.pth', config=None, dataset='Synapse', deterministic=1, img_size=512, input_size=224, is_savenii=True, list_dir='./lists/lists_Synapse/', lora_ckpt='checkpoints/epoch_159.pth', module='sam_lora_image_encoder', num_classes=8, output_dir='D:\\Desktop\\SAMed-main\\output', rank=4, seed=1234, vit_name='vit_b', volume_path='testset/test_vol_h5/')
+[10:45:16.476] 12 test iterations per epoch
+[10:48:30.093] idx 0 case case0008 mean_dice 0.669957 mean_hd95 12.885176
+[10:50:22.087] idx 1 case case0022 mean_dice 0.903698 mean_hd95 8.620059
+[10:52:31.534] idx 2 case case0038 mean_dice 0.829463 mean_hd95 5.516328
+[10:56:36.249] idx 3 case case0036 mean_dice 0.867280 mean_hd95 7.137733
+[10:59:47.151] idx 4 case case0032 mean_dice 0.877049 mean_hd95 16.098598
+[11:02:43.192] idx 5 case case0002 mean_dice 0.885726 mean_hd95 7.309665
+[11:04:46.823] idx 6 case case0029 mean_dice 0.788059 mean_hd95 37.997616
+[11:09:13.546] idx 7 case case0003 mean_dice 0.585645 mean_hd95 101.546292
+[11:12:24.403] idx 8 case case0001 mean_dice 0.780159 mean_hd95 33.100136
+[11:15:27.033] idx 9 case case0004 mean_dice 0.825131 mean_hd95 7.652281
+[11:17:12.788] idx 10 case case0025 mean_dice 0.906964 mean_hd95 6.437674
+[11:19:05.751] idx 11 case case0035 mean_dice 0.906474 mean_hd95 3.389958
+[11:19:06.019] Mean class 1 name spleen mean_dice 0.887216 mean_hd95 14.209225
+[11:19:06.020] Mean class 2 name right kidney mean_dice 0.799521 mean_hd95 31.904885
+[11:19:06.020] Mean class 3 name left kidney mean_dice 0.804512 mean_hd95 27.433535
+[11:19:06.020] Mean class 4 name gallbladder mean_dice 0.691146 mean_hd95 39.001957
+[11:19:06.020] Mean class 5 name liver mean_dice 0.948024 mean_hd95 20.489764
+[11:19:06.021] Mean class 6 name stomach mean_dice 0.820586 mean_hd95 11.231836
+[11:19:06.021] Mean class 7 name aorta mean_dice 0.877679 mean_hd95 10.498639
+[11:19:06.021] Mean class 8 name pancreas mean_dice 0.721720 mean_hd95 10.357837
+[11:19:06.022] Testing performance in best val model: mean_dice : 0.818800 mean_hd95 : 20.640960
+[11:19:06.022] Testing Finished!
